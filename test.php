@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+	<body>
+	<h4 style="color:#ffffff;background-color:#da7171;height:100px;line-height: 100px; text-align: center;">WELCOME TO AUTOMATED GENERATED QUESTION PAPER.</h4>
+	<?php include "header2.php";   ?>
+    <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/2.1.jpg" width="1300" height="800"> <!-- random image -->
+        <div class="caption left-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3">.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/4.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/5.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+<script type="text/javascript">
+	 $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+</script>
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Automated Question Paper Generator.</h5>
+                <p class="grey-text text-lighten-4">Ultimate  customer support and Highly Secured.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            ©2018 Girish Vanamadi
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
+        <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>LOGOUT</h4>
+      <p><font color="blue"><b>Are you want to logout?</b></font></p>
+    </div>
+    <div class="modal-footer">
+    <a href="logout.php" class="modal-close waves-effect waves-green btn-flat">YES</a>
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">NO</a>
+    </div>
+  </div>
+  <script>
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+  </script>
+
+      
+   </body>
+   </html>
+			
